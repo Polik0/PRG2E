@@ -9,6 +9,7 @@ public class Song {
     double rating;
     int duration;
 
+
     public void printInfo() {
         System.out.println("Song: " + name);
         System.out.println("Written by: " + author);
