@@ -9,13 +9,6 @@ public class Song {
     double rating;
     int duration;
 
-    public Song(String name, String author, int yearOfRelease, double rating, int duration) {
-        this.name = name;
-        this.author = author;
-        this.yearOfRelease = yearOfRelease;
-        this.rating = rating;
-        this.duration = duration;
-    }
 
     public void printInfo() {
         System.out.println("Song: " + name);
