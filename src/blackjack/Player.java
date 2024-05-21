@@ -14,7 +14,7 @@ public class Player {
         if (cardPicked >= 10) {
             cardPicked = 10;
         }
-        System.out.println("Lizl sis kartu");
+        System.out.println("Lizl sis kartu s hodnotou " + cardPicked);
         handValue += cardPicked;
     }
 
